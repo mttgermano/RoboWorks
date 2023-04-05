@@ -7,7 +7,7 @@
 
 ### 📜 Etapas
 O processo é dividido em 3 etapas, sendo composto por 4 atividades e uma entrevista final
-- Etapa 1:
+- [Etapa 1](./Etapa1):
     - [Missão Arduino](./Etapa1/Arduino)
     - [Missao OpenCV](./Etapa1/OpenCV)
     - [Missao CoppeliaSIM](./Etapa1/CoppeliaSim)
