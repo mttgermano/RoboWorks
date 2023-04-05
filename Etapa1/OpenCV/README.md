@@ -14,9 +14,8 @@ Ela pode ser utilizada para análise de imagens, detecção de objetos, reconhec
 - Ler e executar os exemplos dos capítulos 1 e 2 da apostila "Introdução a Visão Computacional com Python e OpenCV".
 
 ### 📒 Steps
-1. De início, criei uma [venv](https://docs.python.org/3/library/venv.html) para conteinerizar a biblioteca instalada, permitindo a portabilidade dos codigos a seguir;
-2. Partindo para as atividades, o intuito da [atividade1.py](./atividade1.py) é demonstrar como acessar os pixéis de uma imagem qualquer utilizando a respectiva biblioteca;
-usando
+1. De início, criei uma [venv](https://docs.python.org/3/library/venv.html) para conteinerizar a biblioteca instalada, permitindo a portabilidade e o versionamento dos códigos a seguir;
+2. Partindo para as atividades, o intuito da [atividade1.py](./atividade1.py) é demonstrar como acessar os pixéis de uma imagem qualquer utilizando a respectiva biblioteca, como mostra:
 ```py
 imagem = cv2.imread('entrada.jpg')
 imagem.shape[1] #largura da imagem
