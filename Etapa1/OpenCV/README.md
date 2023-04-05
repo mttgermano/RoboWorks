@@ -6,7 +6,7 @@
 </h2>
 
 <h2 align="center">
-    <img src="./saida.jpg" height="500px" alt="output program1.py"></igm>
+    <img src="./output.jpg" alt="output main.py"></igm>
 </h2>
 
 >A biblioteca OpenCV é uma biblioteca em cóigo aberto voltada à visão computacional. 
