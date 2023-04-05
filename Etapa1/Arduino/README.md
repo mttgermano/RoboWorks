@@ -13,17 +13,19 @@
 - Dimensionar o resistor ideal para a cor do LED escolhida;
 - Programar o Arduino para piscar um LED com 3 períodos de tempo diferentes.
 
-### 📒 Steps
-1. Nesse pequeno projeto foi usado um Arduino, foi usado:
-    1. Arduino;
-    2. Protoboard;
-    3. LED vermelha (2,0V);
-    4. Resistor (150R);
-    5. Fios.
-    
-2. Primeiramente, é necessario energizar a placa. Para isso, conectei um fio saindo do terminal GND do Arduino até o polo negativo da protoboard, caracterizando um fio terra. Após isso, liguei um fio, saindo de um terminal qualquer (usei o 13), até o polo positivo da protoboard.
+### 📓 Requisitos
+- Nesse pequeno projeto foi usado um Arduino, foi usado:
+    - Arduino;
+    - Protoboard;
+    - LED vermelha (2,0V);
+    - Resistor (150R);
+    - Fios.
 
-3. A seguir, é de suma importancia escolher um resistor que consiga suportar a voltagem vinda da protoboard. Então, tendo em vista que o arduino fornece 5V à palca, quando enviamos um sinal HIGH, e que a led vermelha tem uma tensão máxima de 2 volts e corrente de até 20 Miliamperes, calculei resistência do resistor através da fórmula:
+### 📒 Steps
+
+1. Primeiramente, é necessario energizar a placa. Para isso, conectei um fio saindo do terminal GND do Arduino até o polo negativo da protoboard, caracterizando um fio terra. Após isso, liguei um fio, saindo de um terminal qualquer (usei o 13), até o polo positivo da protoboard.
+
+2. A seguir, é de suma importancia escolher um resistor que consiga suportar a voltagem vinda da protoboard. Então, tendo em vista que o arduino fornece 5V à palca, quando enviamos um sinal HIGH, e que a led vermelha tem uma tensão máxima de 2 volts e corrente de até 20 Miliamperes, calculei resistência do resistor através da fórmula:
 
 $$
 R = (Valimentacao - Vled)/CorrenteLed
@@ -44,11 +46,11 @@ $$
     
 </ul>
 
-4. Por isso, liguei um fio partindo do polo negativo da placa até a ponta de um resistor com 150Ω. Nesse sentido, a outra ponta do resistor foi ligada ao cátodo luz led.
+3. Por isso, liguei um fio partindo do polo negativo da placa até a ponta de um resistor com 150Ω. Nesse sentido, a outra ponta do resistor foi ligada ao cátodo luz led.
 
-5. Em seguida, conectei o ânodo da luz de led ao polo positivo da placa.
+4. Em seguida, conectei o ânodo da luz de led ao polo positivo da placa.
 
-6. Ao final, escrevi o seguinte codigo em c++ para o funcionamento da placa:
+5. Ao final, escrevi o seguinte codigo em c++ para o funcionamento da placa:
 
 ``` cpp
 #define LED1 13         // número do terminal do arduino conectado à protoboard
