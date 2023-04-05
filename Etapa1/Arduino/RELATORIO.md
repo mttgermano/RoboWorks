@@ -1,6 +1,6 @@
 <h2 align="center">
     <img src="https://www.redbytes.in/wp-content/uploads/2018/04/arduino-1-logo-png-transparent.png" alt="arduino logo" height="200" width="200"></br>
-    <br> Missao Arduino </br>
+    <br> Misso Arduino </br>
 </h2>
 
 > O Arduino é uma placa microcontroladora programável de código aberto, projetada para criar projetos eletrônicos interativos, acessíveis tanto em preço quanto em nível de dificuldade. Sua plataforma permite a criação de uma grande variedade de projetos, como robôs, sensores, dispositivos de IoT e outros. 
