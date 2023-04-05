@@ -20,20 +20,20 @@
     3. LED vermelha (2,0V);
     4. Resistor (150R);
     5. Fios.
-2. Primeiramente, e' necessario energizar a placa. Para isso, conectei um fio saindo do terminal GND do Arduino at'e o polo negativo da protoboard, caracterizando um fio terra. Ap'os isso, liguei um fio, saindo de um terminal qualquer (usei o 13), ate' o polo positivo da protoboard.
-3. A seguir, e' de suma importancia escolher um resistor que consiga suportar a voltagem vinda da protoboard. Entao, tendo em vista que o arduino fornece 5V a palca quando enviamos um sinal HIGH e que a led vermelha tem uma tensao maxima de 2 volts e corrente de ate' 20 Miliamperes, calueia resistencia do resistor atraves da formula:
+2. Primeiramente, é necessario energizar a placa. Para isso, conectei um fio saindo do terminal GND do Arduino até o polo negativo da protoboard, caracterizando um fio terra. Após isso, liguei um fio, saindo de um terminal qualquer (usei o 13), até o polo positivo da protoboard.
+3. A seguir, é de suma importancia escolher um resistor que consiga suportar a voltagem vinda da protoboard. Então, tendo em vista que o arduino fornece 5V a palca quando enviamos um sinal HIGH e que a led vermelha tem uma tensão máxima de 2 volts e corrente de até 20 Miliamperes, calculei resistência do resistor através da fórmula:
 
 $$
 R = (Valimentacao - Vled)/CorrenteLed
 $$
 <ul>
-    <em> Valimentacao = 5V; </em><br>
+    <em> Valimentação = 5V; </em><br>
     <em> Vled = 2V; </em><br>
     <em> CorrenteLed = 0,020A; </em>
     
 </ul>
-4. Por isso, liguei um fio partindo do polo negativo da placa ate' a ponta de um resistor com 150R. Nesse sentido, a outra ponta do resistor foi ligada ao catodo luz led.
-5. Em seguida, conectei a o anodo da luz de lede ao polo positivo da placa.
+4. Por isso, liguei um fio partindo do polo negativo da placa até a ponta de um resistor com 150R. Nesse sentido, a outra ponta do resistor foi ligada ao catodo luz led.
+5. Em seguida, conectei o anodo da luz de lede ao polo positivo da placa.
 6. Ao final, escrevi o seguinte codigo em c++ para o funcionamento da placa:
 
 
