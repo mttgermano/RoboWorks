@@ -62,7 +62,7 @@ void setup()
 void loop()
 {
   
-  digitalWrite(LED1, HIGH); // Apaga LED1
+  digitalWrite(LED1, HIGH); // Liga LED1
   delay(interval); // Aguarda o valor do intervalo em millisegundos(s)
   
   digitalWrite(LED1, LOW); // Acende LED1
