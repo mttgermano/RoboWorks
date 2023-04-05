@@ -6,7 +6,7 @@
 > O Arduino é uma placa microcontroladora programável de código aberto, projetada para criar projetos eletrônicos interativos, acessíveis tanto em preço quanto em nível de dificuldade. Sua plataforma permite a criação de uma grande variedade de aplicaç, como robôs, sensores, dispositivos de IoT e outros. 
 
 <img src="./circuito.png"> </igm>
->Tinkercad Link: https://www.tinkercad.com/things/l59BRV1MPYP
+>Tinkercad Link: https://www.tinkercad.com/things/l59BRV1MPYP?sharecode=_D0ukdK0UZrTuy1bJTvIayRe9nH0VUIRE3Z_6ymjVWQ
 
 ### 🎯 Desafio da Missão
 - Montar o circuito para acender um LED com Arduino em uma protoboard no TinkerCAD;
