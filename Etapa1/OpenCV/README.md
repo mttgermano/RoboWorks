@@ -1,5 +1,3 @@
-# INACABADO
-
 <h2 align="center">
     <img src="https://avatars.githubusercontent.com/u/5009934?s=200&v=4" alt="arduino logo" height="200" width="200"></br>
     <br> Missão OpenCV </br>
