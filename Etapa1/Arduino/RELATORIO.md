@@ -39,7 +39,7 @@ $$
 
 
 ``` cpp
-#define LED1 13         // numero do terminal do arduino conectado a protoboard
+#define LED1 13         // número do terminal do arduino conectado à protoboard
 int interval = 1000;    // delay inicializado em 1000 millisegundos (s)	
 
 void setup()
