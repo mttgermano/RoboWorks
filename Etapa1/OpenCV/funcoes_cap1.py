@@ -1,7 +1,7 @@
+# Importação das bibliotecas
+import cv2
+
 def atividade1():
-    # Importação das bibliotecas
-    import cv2
-    
     # Leitura da imagem com a função imread()
     imagem = cv2.imread('entrada.jpg')
     print('Largura em pixels: ', end='')
