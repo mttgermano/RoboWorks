@@ -13,6 +13,12 @@ Ela pode ser utilizada para análise de imagens, detecção de objetos, reconhec
 ### 🎯 Desafio da Missão
 - Ler e executar os exemplos dos capítulos 1 e 2 da apostila "Introdução a Visão Computacional com Python e OpenCV".
 
+### 📓 Requisitos
+- Para este projeto, é necessário o uso da biblioteca open-cv:
+```bash
+pip install opencv-python
+```
+
 ### 📒 Steps
 1. De início, criei uma [venv](https://docs.python.org/3/library/venv.html) para conteinerizar a biblioteca instalada, permitindo a portabilidade e o versionamento dos códigos a seguir;
 2. Partindo para as atividades, o intuito da [atividade1.py](./atividade1.py) é demonstrar como acessar os pixéis de uma imagem qualquer utilizando a respectiva biblioteca, como mostra:
