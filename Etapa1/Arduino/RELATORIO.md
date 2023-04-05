@@ -8,7 +8,7 @@
 <img src="./circuito.png"> </igm>
 >Tinkercad Link: https://www.tinkercad.com/things/l59BRV1MPYP
 
-### 🎯 Desafio da Missao
+### 🎯 Desafio da Misso
 - Montar o circuito para acender um LED com Arduino em uma protoboard no TinkerCAD;
 - Dimensionar o resistor ideal para a cor do LED escolhida;
 - Programar o Arduino para piscar um LED com 3 períodos de tempo diferentes.
