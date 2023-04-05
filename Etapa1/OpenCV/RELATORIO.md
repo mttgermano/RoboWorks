@@ -16,7 +16,8 @@ Ela pode ser utilizada para análise de imagens, detecção de objetos, reconhec
 - Ler e executar os exemplos dos capítulos 1 e 2 da apostila "Introdução a Visão Computacional com Python e OpenCV".
 
 ### 📒 Steps
-1. De início, o intuito da [atividade1.py](./atividade1.py) é demonstrar como acessar os pixeis de uma imagem qualquer utilizando a respectiva biblioteca;
+1. De inicio, criei uma [venv](https://docs.python.org/3/library/venv.html) para conteinerizar a biblioteca instalada, permitindo a portabilidade dos codigos a seguir;
+2. Partindo para as atividades, o intuito da [atividade1.py](./atividade1.py) é demonstrar como acessar os pixeis de uma imagem qualquer utilizando a respectiva biblioteca;
 usando
 ```py
 imagem = cv2.imread('entrada.jpg')
