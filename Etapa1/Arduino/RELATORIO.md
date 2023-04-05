@@ -53,10 +53,10 @@ void loop()
   digitalWrite(LED1, HIGH); // Apaga LED1
   delay(interval); // Aguarda o valor do intervalo em millisegundos(s)
   
-  digitalWrite(LED1, LOW); // Ascende LED1
+  digitalWrite(LED1, LOW); // Acende LED1
   delay(interval); // Aguarda o valor do intervalo em millisegundos(s)
    
-  // Ascende em 3 intervalos diferentes
+  // Acende em 3 intervalos diferentes
   interval += (interval < 3000) ? 1000 : -2000;
 }
 ```
