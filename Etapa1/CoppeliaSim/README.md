@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="https://avatars2.githubusercontent.com/u/29758034?s=400&v=4" alt="CoppeliaSim logo logo" height="200" width="200"></br>
+    <img src="https://avatars2.githubusercontent.com/u/29758034?s=400&v=4" alt="CoppeliaSim logo logo" height="200" width="200" style="border-radius:15px"></br>
     <br> Missão CoppeliaSIM </br>
 </h2>
  
