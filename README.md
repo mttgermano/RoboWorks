@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="https://avatars.githubusercontent.com/u/47573703?s=200&v=4" alt="logo IEEE RAS UFCG" height="200" width="200"></br></br>
+    <img src="https://avatars.githubusercontent.com/u/47573703?s=200&v=4" alt="logo IEEE RAS UFCG" height="200" width="200" style="border-radius:30px"></br></br>
     Repositório do Processo Seletivo do IEEE RAS UFCG
 </h2>
 
