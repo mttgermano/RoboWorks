@@ -11,7 +11,7 @@
 Ela pode ser utilizada para análise de imagens, detecção de objetos, reconhecimento de rostos, rastreamento de objetos, entre outras.
 
 ### 🎯 Desafio da Missão
-- Ler e executar os exemplos dos capítulos 1 e 2 da apostila "Introdução a Visão Computacional com Python e OpenCV".
+- Ler e executar os exemplos dos capítulos 1 e 2 da apostila ["Introdução a Visão Computacional com Python e OpenCV"](https://professor.luzerna.ifc.edu.br/ricardo-antonello/wp-content/uploads/sites/8/2017/02/Livro-Introdu%C3%A7%C3%A3o-a-Vis%C3%A3o-Computacional-com-Python-e-OpenCV-3.pdf).
 
 ### 📓 Requisitos
 - Para este projeto, é necessário o uso da biblioteca open-cv:
@@ -68,3 +68,5 @@ for y in range(0, imagem.shape[0], 10): # percorre linhas
     for x in range(0, imagem.shape[1], 10): # percorre colunas, pulando de 10 em 10
         imagem[y:y+5, x: x+5] = (0,255,255) # cria um quadrado amarelo de 5x5 pixeis
 ```
+### 📚 Bibliografia
+- [Introdução a Visão Computacional com Python e OpenCV](https://professor.luzerna.ifc.edu.br/ricardo-antonello/wp-content/uploads/sites/8/2017/02/Livro-Introdu%C3%A7%C3%A3o-a-Vis%C3%A3o-Computacional-com-Python-e-OpenCV-3.pdf)
