@@ -53,7 +53,7 @@ def main():
     # Variaveis Globais #########################################
     t0,t1 = 0,0                 # variáveis de tempo inicial e 
                                 # final usadas para calcular FPS
-                                # do video
+                                # do vídeo
                                     
     
     frame = cv.VideoCapture(0)  # cria um objeto que receberá o 
@@ -67,7 +67,7 @@ def main():
     # Shortcuts para métodos das bibliotecas ####################
     hands = mp.solutions.hands      # configura a biblioteca do
                                     # mediapiepe para usar 
-                                    # funções relacionadas a mãos
+                                    # funções relacionadas  mãos
 
     Hands = hands.Hands(max_num_hands=2)    # quantidade máxima 
                                             # de mãos que serão 
@@ -93,7 +93,7 @@ def main():
     
         # FPS ###################################################
         fps,t0,t1 = countFPS(t0,t1)     # conta quantos frames 
-                                        # por segundo o video 
+                                        # por segundo o vídeo 
                                         # esta conseguindo 
                                         # capturar
     
@@ -103,9 +103,9 @@ def main():
 
         # Número Dedos ##########################################
         results = Hands.process(video)  # faz o processamento do
-                                        # video visando encontrar 
-                                        # padroes similares a 
-                                        # uma mao
+                                        # vídeo visando encontrar 
+                                        # padroes similares aos  
+                                        # de uma mo
 
         # obtém as coordenadas dos pontos das mãos
         handPoints = results.multi_hand_landmarks   
