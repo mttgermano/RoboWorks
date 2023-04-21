@@ -28,7 +28,15 @@ pip install mediapipe
 ### 📒 Steps
 1. De início, criei uma [venv](https://docs.python.org/3/library/venv.html) para conteinerizar a biblioteca instalada, permitindo a portabilidade e o versionamento dos códigos a seguir;
 
-2. Partindo para o código da atividade, à princípio, criei algumas variáveis globais que auxiliaram a enxugar o código, tornando-o mais legível:
+2. À princípio, importei as bibliotecas descritas anteriormente:
+```python
+# Bibliotecas ###################################################
+import mediapipe as mp
+import cv2 as cv
+import time
+```
+
+3. Partindo para o código da atividade, criei algumas variáveis globais que auxiliaram a enxugar o código, tornando-o mais legível:
 ```python
     # Variaveis Globais #########################################
     t0,t1 = 0,0                 # variaveis de tempo inicial e 
@@ -59,19 +67,19 @@ pip install mediapipe
                                         # relacionadas a desenhos
 ```
 
-3. A seguir, capturei o vídeo obtido por meio da camera do computdaor e o inverti, para uma maior compreensão:
+4. A seguir, capturei o vídeo obtido por meio da camera do computdaor e o inverti, para uma maior compreensão:
 ```python
         ret,video = frame.read()   # captura cada frame do video
         video = cv.flip(video,1)    # inverte o video
 ```
 
-4. Depois, criei um retângulo que comportará o número de dedos levantados e o inseri no video:
+5. Depois, criei um retângulo que comportará o número de dedos levantados e o inseri no video:
 ```python
         # printa o resultado do fps dentro do retangulo display
         cv.putText(video, f"FPS: {fps}",(200,50),cv.FONT_HERSHEY_PLAIN,2,color_text,3)
 ```
 
-5. Em seguida, criei uma função que mostra o desempenho do código em relação ao vídeo - frames por segundo da transmissão - e printei o resultado ao lado do Retangulo de Display:
+6. Em seguida, criei uma função que mostra o desempenho do código em relação ao vídeo - frames por segundo da transmissão - e printei o resultado ao lado do Retangulo de Display:
 ```python
 # conta os frames por segundo do video #
 def countFPS(t0: float,t1: float) -> tuple[int, float, float]:
@@ -96,7 +104,7 @@ def countFPS(t0: float,t1: float) -> tuple[int, float, float]:
         cv.putText(video, f"FPS: {fps}",(200,50),cv.FONT_HERSHEY_PLAIN,2,color_text,3)
 ``` 
 
-6. Após isso, trabalhei na função que contará os dedos levantados da mão e a inseri na função Main:
+7. Após isso, trabalhei na função que contará os dedos levantados da mão e a inseri na função Main:
 ``` python
 # soma o numero de dedos levantados #
 def countDedos(pontos: list,dedos: list) -> int:
@@ -180,20 +188,20 @@ def countDedos(pontos: list,dedos: list) -> int:
         #########################################################
 ```
 
-7. Com isso, agora pude mostar ao usuário o resultado do vídeo principal, junto as alterações feitas e o reconhecimento automático das mãos:
+8. Com isso, agora pude mostar ao usuário o resultado do vídeo principal, junto as alterações feitas e o reconhecimento automático das mãos:
 ```python
         # exibe os videos obtidos a partir da camera #
         cv.imshow("video",video) 
 ```
 
-8. Partindo para a conclusão, coloquei uma forma do usuário conseguir para a transmissão da camera, encerrando o código:
+9. Partindo para a conclusão, coloquei uma forma do usuário conseguir para a transmissão da camera, encerrando o código:
 ```python
         # waitKey retorna o código ascii do caractere pressionado   
         # ord(q) retorna o código ascii do caractere 'q'            
         if cv.waitKey(1) == ord('q'): break
 ```
 
-9. Finalmente, ao encerrar o código, fechei, também, tanto o acesso a câmera quanto à janela criada para mostar o vídeo:
+10. Finalmente, ao encerrar o código, fechei, também, tanto o acesso a câmera quanto à janela criada para mostar o vídeo:
 ```python
     # Fecha o acesso a camera e tambem as janeas #
     frame.release()
