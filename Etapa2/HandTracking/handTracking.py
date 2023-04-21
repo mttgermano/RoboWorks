@@ -97,7 +97,7 @@ def main():
                                         # esta conseguindo 
                                         # capturar
     
-        # printa o resultado do fps dentro do retangulo display
+        # printa o resultado do fps
         cv.putText(video, f"FPS: {fps}",(200,50),cv.FONT_HERSHEY_PLAIN,2,color_text,3)
     
 
