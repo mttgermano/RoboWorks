@@ -6,7 +6,7 @@
 
 <h2 align=center>
     <img src="./output.gif" align=left></igm>
-    <img src="./hands.png"></img>
+    <img src="./hands.png" height="320"></img>
 </h2>
 
 
