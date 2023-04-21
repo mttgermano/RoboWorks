@@ -102,7 +102,6 @@ def main():
     
 
         # Finger Numbers ########################################
-
         results = Hands.process(video)  # faz o processamento do
                                         # video visando encontrar 
                                         # padroes similares a 
